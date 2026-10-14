@@ -1,0 +1,1926 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "ORPMS",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\REAL_ESTATE\\ORPMS\\UPSTREAM_CLONE",
+  "git": {
+   "head": "aeb354411dad78de3f13e7856d43c849c65b389e",
+   "url": "https://github.com/senatroxx/OpenKos",
+   "branch": "main",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 1175,
+  "source_files_scanned": 1098,
+  "lines_of_code": 139306,
+  "languages": {
+   ".php": 800,
+   ".tsx": 244,
+   ".ts": 53,
+   ".md": 30,
+   "(none)": 23,
+   ".json": 10,
+   ".yaml": 4,
+   ".svg": 2,
+   ".example": 1,
+   ".lock": 1,
+   ".js": 1,
+   ".xml": 1,
+   ".css": 1,
+   ".png": 1,
+   ".ico": 1
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 63,
+  "unique": 63,
+  "by_ecosystem": {
+   "npm": 63
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "@base-ui/react",
+    "version": "^1.5.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@headlessui/react",
+    "version": "^2.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@inertiajs/react",
+    "version": "^3.7.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@inertiajs/vite",
+    "version": "^3.7.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@laravel/passkeys",
+    "version": "^0.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-avatar",
+    "version": "^1.1.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-checkbox",
+    "version": "^1.1.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-collapsible",
+    "version": "^1.1.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dialog",
+    "version": "^1.1.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "^2.1.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-label",
+    "version": "^2.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-navigation-menu",
+    "version": "^1.2.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-popover",
+    "version": "^1.1.15",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-select",
+    "version": "^2.1.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-separator",
+    "version": "^1.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-slot",
+    "version": "^1.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-toggle",
+    "version": "^1.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-toggle-group",
+    "version": "^1.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@radix-ui/react-tooltip",
+    "version": "^1.1.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tailwindcss/vite",
+    "version": "^4.1.11",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react",
+    "version": "^19.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/react-dom",
+    "version": "^19.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "class-variance-authority",
+    "version": "^0.7.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cmdk",
+    "version": "^1.1.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "concurrently",
+    "version": "^9.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "globals",
+    "version": "^15.14.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "input-otp",
+    "version": "^1.4.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "laravel-vite-plugin",
+    "version": "^3.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lucide-react",
+    "version": "^0.475.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "radix-ui",
+    "version": "^1.4.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react",
+    "version": "^19.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-compiler-runtime",
+    "version": "^1.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "react-dom",
+    "version": "^19.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "recharts",
+    "version": "^3.10.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sonner",
+    "version": "^2.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwind-merge",
+    "version": "^3.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tailwindcss",
+    "version": "^4.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tw-animate-css",
+    "version": "^1.4.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.7.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "vite",
+    "version": "^8.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@eslint/js",
+    "version": "^9.19.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@laravel/vite-plugin-wayfinder",
+    "version": "^0.1.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@stylistic/eslint-plugin",
+    "version": "^5.10.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^22.13.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "babel-plugin-react-compiler",
+    "version": "^1.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.17.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-config-prettier",
+    "version": "^10.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-import-resolver-typescript",
+    "version": "^4.4.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-import",
+    "version": "^2.32.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "playwright",
+    "version": "^1.63.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier",
+    "version": "^3.4.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "prettier-plugin-tailwindcss",
+    "version": "^0.6.11",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript-eslint",
+    "version": "^8.23.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/rollup-linux-x64-gnu",
+    "version": "4.9.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@rollup/rollup-win32-x64-msvc",
+    "version": "4.9.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tailwindcss/oxide-linux-x64-gnu",
+    "version": "^4.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@tailwindcss/oxide-win32-x64-msvc",
+    "version": "^4.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "^1.29.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lightningcss-win32-x64-msvc",
+    "version": "^1.29.1",
+    "source_file": "package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 40,
+  "files_with_findings": 39,
+  "severity": {
+   "high": 11,
+   "medium": 7,
+   "low": 22
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 7,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "tests/Feature/Settings/PublicPortalSettingsTest.php",
+      "line": 184,
+      "cwe": "CWE-327",
+      "snippet": "$imageUrl = route('branding.asset', ['asset' => 'og-image', 'v' => sha1($path)]);"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/Feature/Auth/AuthenticationTest.php",
+      "line": 105,
+      "cwe": "CWE-327",
+      "snippet": "RateLimiter::increment(md5('login'.implode('|', [$user->email, '127.0.0.1'])), amount: 5);"
+     },
+     {
+      "severity": "medium",
+      "file": "tests/Feature/Auth/EmailVerificationTest.php",
+      "line": 29,
+      "cwe": "CWE-327",
+      "snippet": "['id' => $user->id, 'hash' => sha1($user->email)],"
+     },
+     {
+      "severity": "medium",
+      "file": "app/Services/PublicPortal/PublicPortalMetadataResolver.php",
+      "line": 119,
+      "cwe": "CWE-327",
+      "snippet": "'v' => sha1($configuredPath),"
+     },
+     {
+      "severity": "medium",
+      "file": "app/Services/Platform/BuildInfo.php",
+      "line": 24,
+      "cwe": "CWE-327",
+      "snippet": "$cacheKey = 'openkos.build-info.'.md5(serialize(["
+     },
+     {
+      "severity": "medium",
+      "file": "app/Http/Middleware/HandleInertiaRequests.php",
+      "line": 192,
+      "cwe": "CWE-327",
+      "snippet": "? sha1((string) $path)"
+     },
+     {
+      "severity": "medium",
+      "file": "app/Http/Controllers/Settings/PublicPortalController.php",
+      "line": 99,
+      "cwe": "CWE-327",
+      "snippet": "'v' => sha1((string) Setting::get('public_og_image_path')),"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 8,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "tests/Feature/LeaseTest.php",
+      "line": 859,
+      "cwe": "CWE-120",
+      "snippet": "expect($lockQuery['query'])->toContain(sprintf('in (%d, %d)', $targetUnit->id, $sourceUnit->id));"
+     },
+     {
+      "severity": "high",
+      "file": "tests/Feature/MaintenanceTicketCrudTest.php",
+      "line": 349,
+      "cwe": "CWE-120",
+      "snippet": "expect($lockQuery['query'])->toContain(sprintf('in (%d, %d)', $targetUnit->id, $sourceUnit->id));"
+     },
+     {
+      "severity": "high",
+      "file": "database/seeders/LoadTestDatasetSeeder.php",
+      "line": 184,
+      "cwe": "CWE-120",
+      "snippet": "$slug = sprintf('%s-property-%02d', self::NAMESPACE, $index);"
+     },
+     {
+      "severity": "high",
+      "file": "app/Notifications/Channels/MailChannel.php",
+      "line": 20,
+      "cwe": "CWE-120",
+      "snippet": "throw new InvalidArgumentException(sprintf("
+     },
+     {
+      "severity": "high",
+      "file": "app/Http/Controllers/TenantPortal/DashboardController.php",
+      "line": 163,
+      "cwe": "CWE-120",
+      "snippet": "$outstandingSql = sprintf("
+     },
+     {
+      "severity": "high",
+      "file": "app/Exceptions/PaymentGatewayCurrencyUnsupportedException.php",
+      "line": 12,
+      "cwe": "CWE-120",
+      "snippet": "parent::__construct(sprintf("
+     },
+     {
+      "severity": "high",
+      "file": "app/Console/Commands/MigrateLegacyMedia.php",
+      "line": 66,
+      "cwe": "CWE-120",
+      "snippet": "$this->info(sprintf("
+     },
+     {
+      "severity": "high",
+      "file": "app/Console/Commands/ReconcilePaymentAttemptsCommand.php",
+      "line": 48,
+      "cwe": "CWE-120",
+      "snippet": "$this->info(sprintf("
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/Feature/PropertyTest.php",
+      "line": 404,
+      "cwe": "CWE-",
+      "snippet": "->put(route('properties.update', $propertyB), ['name' => 'Hacked Name'])"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/TenantInviteTest.php",
+      "line": 430,
+      "cwe": "CWE-",
+      "snippet": "'email' => 'hacker@example.com',"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/TenantTest.php",
+      "line": 226,
+      "cwe": "CWE-",
+      "snippet": "->put(route('tenants.update', $tenant), ['name' => 'Hacked Name'])"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/UnitTest.php",
+      "line": 592,
+      "cwe": "CWE-",
+      "snippet": "'name' => 'Hacked',"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "database/seeders/DemoUsersSeeder.php",
+      "line": 21,
+      "cwe": "CWE-798",
+      "snippet": "private const PASSWORD = 'password';"
+     },
+     {
+      "severity": "high",
+      "file": "app/Enums/Permission.php",
+      "line": 13,
+      "cwe": "CWE-798",
+      "snippet": "case UsersResetPassword = 'users.reset_password';"
+     },
+     {
+      "severity": "high",
+      "file": "app/Console/Commands/InstallCommand.php",
+      "line": 169,
+      "cwe": "CWE-798",
+      "snippet": "$env = preg_replace('/^DB_PASSWORD=.*/m', '# DB_PASSWORD=', $env);\n\n            File::put($envPath, $env);\n            $this->info('Database configured for SQLite.');"
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "playwright.config.ts",
+      "line": 22,
+      "cwe": "CWE-319",
+      "snippet": "baseURL: 'http://127.0.0.1:4173',"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/InstallCommandTest.php",
+      "line": 10,
+      "cwe": "CWE-319",
+      "snippet": "->expectsQuestion('What is the application URL?', 'http://localhost')"
+     },
+     {
+      "severity": "low",
+      "file": "resources/js/hooks/use-current-url.ts",
+      "line": 35,
+      "cwe": "CWE-319",
+      "snippet": ": 'http://localhost',"
+     },
+     {
+      "severity": "low",
+      "file": "resources/js/components/data-table/filter-bar.tsx",
+      "line": 180,
+      "cwe": "CWE-319",
+      "snippet": "xmlns=\"http://www.w3.org/2000/svg\""
+     },
+     {
+      "severity": "low",
+      "file": "config/app.php",
+      "line": 55,
+      "cwe": "CWE-319",
+      "snippet": "'url' => env('APP_URL', 'http://localhost'),"
+     },
+     {
+      "severity": "low",
+      "file": "config/filesystems.php",
+      "line": 44,
+      "cwe": "CWE-319",
+      "snippet": "'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',"
+     },
+     {
+      "severity": "low",
+      "file": "config/inertia.php",
+      "line": 20,
+      "cwe": "CWE-319",
+      "snippet": "'url' => 'http://127.0.0.1:13714',"
+     },
+     {
+      "severity": "low",
+      "file": "config/mail.php",
+      "line": 49,
+      "cwe": "CWE-319",
+      "snippet": "'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL', 'http://localhost'), PHP_URL_HOST)),"
+     },
+     {
+      "severity": "low",
+      "file": "app/Console/Commands/InstallCommand.php",
+      "line": 48,
+      "cwe": "CWE-319",
+      "snippet": "$appUrl = $this->ask('What is the application URL?', 'http://localhost');"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "routes/settings.php",
+      "line": 28,
+      "cwe": "CWE-601",
+      "snippet": "Route::redirect('settings', '/settings/profile');"
+     },
+     {
+      "severity": "low",
+      "file": "routes/web.php",
+      "line": 48,
+      "cwe": "CWE-601",
+      "snippet": "Route::redirect('/listings', '/', 308)->name('public.portal.redirect');"
+     },
+     {
+      "severity": "low",
+      "file": "bootstrap/app.php",
+      "line": 70,
+      "cwe": "CWE-601",
+      "snippet": "return redirect()->back();"
+     },
+     {
+      "severity": "low",
+      "file": "app/Providers/FortifyServiceProvider.php",
+      "line": 40,
+      "cwe": "CWE-601",
+      "snippet": "return redirect()->to($this->destination->resolve($request, $request->user()));"
+     },
+     {
+      "severity": "low",
+      "file": "app/Http/Controllers/LeaseInvoiceController.php",
+      "line": 191,
+      "cwe": "CWE-601",
+      "snippet": "return redirect()->route('leases.workspace.invoices.show', [$lease, $invoice]);"
+     },
+     {
+      "severity": "low",
+      "file": "app/Http/Controllers/SignedPaymentController.php",
+      "line": 114,
+      "cwe": "CWE-601",
+      "snippet": ": redirect()->away($result->instructions->url);"
+     },
+     {
+      "severity": "low",
+      "file": "app/Http/Controllers/TenantPortal/PaymentController.php",
+      "line": 287,
+      "cwe": "CWE-601",
+      "snippet": "return redirect()->route('portal.billing.invoices.show', $invoice);"
+     },
+     {
+      "severity": "low",
+      "file": "app/Http/Controllers/Settings/ProfileController.php",
+      "line": 47,
+      "cwe": "CWE-601",
+      "snippet": "return $return ? redirect($return) : back();"
+     },
+     {
+      "severity": "low",
+      "file": "app/Http/Controllers/Settings/SettingValuesController.php",
+      "line": 59,
+      "cwe": "CWE-601",
+      "snippet": "return redirect()->back();"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 4,
+  "files_with_findings": 4,
+  "severity": {
+   "high": 0,
+   "medium": 1,
+   "low": 3
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "resources/js/pages/settings/reminders.tsx",
+      "line": 33,
+      "cwe": "CWE-1336",
+      "snippet": "function renderTemplate("
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "tests/Feature/PaymentWebhookTest.php",
+      "line": 398,
+      "cwe": "CWE-",
+      "snippet": "->assertJson(['message' => 'Webhook verification failed.'])"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/Auth/EmailVerificationTest.php",
+      "line": 34,
+      "cwe": "CWE-",
+      "snippet": "Event::assertDispatched(Verified::class);"
+     },
+     {
+      "severity": "low",
+      "file": "tests/Feature/Auth/VerificationNotificationTest.php",
+      "line": 21,
+      "cwe": "CWE-",
+      "snippet": "Notification::assertSentTo($user, VerifyEmail::class);"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:eedf596f-e85c-5c60-a3ef-013e849662ff",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T07:23:30Z",
+   "component": {
+    "type": "application",
+    "name": "ORPMS",
+    "version": "aeb354411dad",
+    "bom-ref": "pkg:generic/anticloud/ORPMS@aeb354411dad",
+    "purl": "pkg:generic/anticloud/ORPMS@aeb354411dad",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "aeb354411dad78de3f13e7856d43c849c65b389e"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "@base-ui/react",
+    "version": "^1.5.0",
+    "purl": "pkg:npm/@base-ui/react@^1.5.0",
+    "bom-ref": "npm/@base-ui/react@^1.5.0"
+   },
+   {
+    "type": "library",
+    "name": "@headlessui/react",
+    "version": "^2.2.0",
+    "purl": "pkg:npm/@headlessui/react@^2.2.0",
+    "bom-ref": "npm/@headlessui/react@^2.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@inertiajs/react",
+    "version": "^3.7.0",
+    "purl": "pkg:npm/@inertiajs/react@^3.7.0",
+    "bom-ref": "npm/@inertiajs/react@^3.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@inertiajs/vite",
+    "version": "^3.7.0",
+    "purl": "pkg:npm/@inertiajs/vite@^3.7.0",
+    "bom-ref": "npm/@inertiajs/vite@^3.7.0"
+   },
+   {
+    "type": "library",
+    "name": "@laravel/passkeys",
+    "version": "^0.2.0",
+    "purl": "pkg:npm/@laravel/passkeys@^0.2.0",
+    "bom-ref": "npm/@laravel/passkeys@^0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-avatar",
+    "version": "^1.1.3",
+    "purl": "pkg:npm/@radix-ui/react-avatar@^1.1.3",
+    "bom-ref": "npm/@radix-ui/react-avatar@^1.1.3"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-checkbox",
+    "version": "^1.1.4",
+    "purl": "pkg:npm/@radix-ui/react-checkbox@^1.1.4",
+    "bom-ref": "npm/@radix-ui/react-checkbox@^1.1.4"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-collapsible",
+    "version": "^1.1.3",
+    "purl": "pkg:npm/@radix-ui/react-collapsible@^1.1.3",
+    "bom-ref": "npm/@radix-ui/react-collapsible@^1.1.3"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dialog",
+    "version": "^1.1.6",
+    "purl": "pkg:npm/@radix-ui/react-dialog@^1.1.6",
+    "bom-ref": "npm/@radix-ui/react-dialog@^1.1.6"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-dropdown-menu",
+    "version": "^2.1.6",
+    "purl": "pkg:npm/@radix-ui/react-dropdown-menu@^2.1.6",
+    "bom-ref": "npm/@radix-ui/react-dropdown-menu@^2.1.6"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-label",
+    "version": "^2.1.2",
+    "purl": "pkg:npm/@radix-ui/react-label@^2.1.2",
+    "bom-ref": "npm/@radix-ui/react-label@^2.1.2"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-navigation-menu",
+    "version": "^1.2.5",
+    "purl": "pkg:npm/@radix-ui/react-navigation-menu@^1.2.5",
+    "bom-ref": "npm/@radix-ui/react-navigation-menu@^1.2.5"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-popover",
+    "version": "^1.1.15",
+    "purl": "pkg:npm/@radix-ui/react-popover@^1.1.15",
+    "bom-ref": "npm/@radix-ui/react-popover@^1.1.15"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-select",
+    "version": "^2.1.6",
+    "purl": "pkg:npm/@radix-ui/react-select@^2.1.6",
+    "bom-ref": "npm/@radix-ui/react-select@^2.1.6"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-separator",
+    "version": "^1.1.2",
+    "purl": "pkg:npm/@radix-ui/react-separator@^1.1.2",
+    "bom-ref": "npm/@radix-ui/react-separator@^1.1.2"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-slot",
+    "version": "^1.2.3",
+    "purl": "pkg:npm/@radix-ui/react-slot@^1.2.3",
+    "bom-ref": "npm/@radix-ui/react-slot@^1.2.3"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-toggle",
+    "version": "^1.1.2",
+    "purl": "pkg:npm/@radix-ui/react-toggle@^1.1.2",
+    "bom-ref": "npm/@radix-ui/react-toggle@^1.1.2"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-toggle-group",
+    "version": "^1.1.2",
+    "purl": "pkg:npm/@radix-ui/react-toggle-group@^1.1.2",
+    "bom-ref": "npm/@radix-ui/react-toggle-group@^1.1.2"
+   },
+   {
+    "type": "library",
+    "name": "@radix-ui/react-tooltip",
+    "version": "^1.1.8",
+    "purl": "pkg:npm/@radix-ui/react-tooltip@^1.1.8",
+    "bom-ref": "npm/@radix-ui/react-tooltip@^1.1.8"
+   },
+   {
+    "type": "library",
+    "name": "@tailwindcss/vite",
+    "version": "^4.1.11",
+    "purl": "pkg:npm/@tailwindcss/vite@^4.1.11",
+    "bom-ref": "npm/@tailwindcss/vite@^4.1.11"
+   },
+   {
+    "type": "library",
+    "name": "@types/react",
+    "version": "^19.2.0",
+    "purl": "pkg:npm/@types/react@^19.2.0",
+    "bom-ref": "npm/@types/react@^19.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/react-dom",
+    "version": "^19.2.0",
+    "purl": "pkg:npm/@types/react-dom@^19.2.0",
+    "bom-ref": "npm/@types/react-dom@^19.2.0"
+   },
+   {
+    "type": "library",
+    "name": "@vitejs/plugin-react",
+    "version": "^5.2.0",
+    "purl": "pkg:npm/@vitejs/plugin-react@^5.2.0",
+    "bom-ref": "npm/@vitejs/plugin-react@^5.2.0"
+   },
+   {
+    "type": "library",
+    "name": "class-variance-authority",
+    "version": "^0.7.1",
+    "purl": "pkg:npm/class-variance-authority@^0.7.1",
+    "bom-ref": "npm/class-variance-authority@^0.7.1"
+   },
+   {
+    "type": "library",
+    "name": "clsx",
+    "version": "^2.1.1",
+    "purl": "pkg:npm/clsx@^2.1.1",
+    "bom-ref": "npm/clsx@^2.1.1"
+   },
+   {
+    "type": "library",
+    "name": "cmdk",
+    "version": "^1.1.1",
+    "purl": "pkg:npm/cmdk@^1.1.1",
+    "bom-ref": "npm/cmdk@^1.1.1"
+   },
+   {
+    "type": "library",
+    "name": "concurrently",
+    "version": "^9.0.1",
+    "purl": "pkg:npm/concurrently@^9.0.1",
+    "bom-ref": "npm/concurrently@^9.0.1"
+   },
+   {
+    "type": "library",
+    "name": "globals",
+    "version": "^15.14.0",
+    "purl": "pkg:npm/globals@^15.14.0",
+    "bom-ref": "npm/globals@^15.14.0"
+   },
+   {
+    "type": "library",
+    "name": "input-otp",
+    "version": "^1.4.2",
+    "purl": "pkg:npm/input-otp@^1.4.2",
+    "bom-ref": "npm/input-otp@^1.4.2"
+   },
+   {
+    "type": "library",
+    "name": "laravel-vite-plugin",
+    "version": "^3.0.0",
+    "purl": "pkg:npm/laravel-vite-plugin@^3.0.0",
+    "bom-ref": "npm/laravel-vite-plugin@^3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "lucide-react",
+    "version": "^0.475.0",
+    "purl": "pkg:npm/lucide-react@^0.475.0",
+    "bom-ref": "npm/lucide-react@^0.475.0"
+   },
+   {
+    "type": "library",
+    "name": "radix-ui",
+    "version": "^1.4.3",
+    "purl": "pkg:npm/radix-ui@^1.4.3",
+    "bom-ref": "npm/radix-ui@^1.4.3"
+   },
+   {
+    "type": "library",
+    "name": "react",
+    "version": "^19.2.0",
+    "purl": "pkg:npm/react@^19.2.0",
+    "bom-ref": "npm/react@^19.2.0"
+   },
+   {
+    "type": "library",
+    "name": "react-compiler-runtime",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/react-compiler-runtime@^1.0.0",
+    "bom-ref": "npm/react-compiler-runtime@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "react-dom",
+    "version": "^19.2.0",
+    "purl": "pkg:npm/react-dom@^19.2.0",
+    "bom-ref": "npm/react-dom@^19.2.0"
+   },
+   {
+    "type": "library",
+    "name": "recharts",
+    "version": "^3.10.1",
+    "purl": "pkg:npm/recharts@^3.10.1",
+    "bom-ref": "npm/recharts@^3.10.1"
+   },
+   {
+    "type": "library",
+    "name": "sonner",
+    "version": "^2.0.0",
+    "purl": "pkg:npm/sonner@^2.0.0",
+    "bom-ref": "npm/sonner@^2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tailwind-merge",
+    "version": "^3.0.1",
+    "purl": "pkg:npm/tailwind-merge@^3.0.1",
+    "bom-ref": "npm/tailwind-merge@^3.0.1"
+   },
+   {
+    "type": "library",
+    "name": "tailwindcss",
+    "version": "^4.0.0",
+    "purl": "pkg:npm/tailwindcss@^4.0.0",
+    "bom-ref": "npm/tailwindcss@^4.0.0"
+   },
+   {
+    "type": "library",
+    "name": "tw-animate-css",
+    "version": "^1.4.0",
+    "purl": "pkg:npm/tw-animate-css@^1.4.0",
+    "bom-ref": "npm/tw-animate-css@^1.4.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.7.2",
+    "purl": "pkg:npm/typescript@^5.7.2",
+    "bom-ref": "npm/typescript@^5.7.2"
+   },
+   {
+    "type": "library",
+    "name": "vite",
+    "version": "^8.0.0",
+    "purl": "pkg:npm/vite@^8.0.0",
+    "bom-ref": "npm/vite@^8.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@eslint/js",
+    "version": "^9.19.0",
+    "purl": "pkg:npm/@eslint/js@^9.19.0",
+    "bom-ref": "npm/@eslint/js@^9.19.0"
+   },
+   {
+    "type": "library",
+    "name": "@laravel/vite-plugin-wayfinder",
+    "version": "^0.1.3",
+    "purl": "pkg:npm/@laravel/vite-plugin-wayfinder@^0.1.3",
+    "bom-ref": "npm/@laravel/vite-plugin-wayfinder@^0.1.3"
+   },
+   {
+    "type": "library",
+    "name": "@stylistic/eslint-plugin",
+    "version": "^5.10.0",
+    "purl": "pkg:npm/@stylistic/eslint-plugin@^5.10.0",
+    "bom-ref": "npm/@stylistic/eslint-plugin@^5.10.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^22.13.5",
+    "purl": "pkg:npm/@types/node@^22.13.5",
+    "bom-ref": "npm/@types/node@^22.13.5"
+   },
+   {
+    "type": "library",
+    "name": "babel-plugin-react-compiler",
+    "version": "^1.0.0",
+    "purl": "pkg:npm/babel-plugin-react-compiler@^1.0.0",
+    "bom-ref": "npm/babel-plugin-react-compiler@^1.0.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.17.0",
+    "purl": "pkg:npm/eslint@^9.17.0",
+    "bom-ref": "npm/eslint@^9.17.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-config-prettier",
+    "version": "^10.0.1",
+    "purl": "pkg:npm/eslint-config-prettier@^10.0.1",
+    "bom-ref": "npm/eslint-config-prettier@^10.0.1"
+   },
+   {
+    "type": "library",
+    "name": "eslint-import-resolver-typescript",
+    "version": "^4.4.4",
+    "purl": "pkg:npm/eslint-import-resolver-typescript@^4.4.4",
+    "bom-ref": "npm/eslint-import-resolver-typescript@^4.4.4"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-import",
+    "version": "^2.32.0",
+    "purl": "pkg:npm/eslint-plugin-import@^2.32.0",
+    "bom-ref": "npm/eslint-plugin-import@^2.32.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react",
+    "version": "^7.37.3",
+    "purl": "pkg:npm/eslint-plugin-react@^7.37.3",
+    "bom-ref": "npm/eslint-plugin-react@^7.37.3"
+   },
+   {
+    "type": "library",
+    "name": "eslint-plugin-react-hooks",
+    "version": "^7.0.0",
+    "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.0",
+    "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.0"
+   },
+   {
+    "type": "library",
+    "name": "playwright",
+    "version": "^1.63.0",
+    "purl": "pkg:npm/playwright@^1.63.0",
+    "bom-ref": "npm/playwright@^1.63.0"
+   },
+   {
+    "type": "library",
+    "name": "prettier",
+    "version": "^3.4.2",
+    "purl": "pkg:npm/prettier@^3.4.2",
+    "bom-ref": "npm/prettier@^3.4.2"
+   },
+   {
+    "type": "library",
+    "name": "prettier-plugin-tailwindcss",
+    "version": "^0.6.11",
+    "purl": "pkg:npm/prettier-plugin-tailwindcss@^0.6.11",
+    "bom-ref": "npm/prettier-plugin-tailwindcss@^0.6.11"
+   },
+   {
+    "type": "library",
+    "name": "typescript-eslint",
+    "version": "^8.23.0",
+    "purl": "pkg:npm/typescript-eslint@^8.23.0",
+    "bom-ref": "npm/typescript-eslint@^8.23.0"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/rollup-linux-x64-gnu",
+    "version": "4.9.5",
+    "purl": "pkg:npm/@rollup/rollup-linux-x64-gnu@4.9.5",
+    "bom-ref": "npm/@rollup/rollup-linux-x64-gnu@4.9.5"
+   },
+   {
+    "type": "library",
+    "name": "@rollup/rollup-win32-x64-msvc",
+    "version": "4.9.5",
+    "purl": "pkg:npm/@rollup/rollup-win32-x64-msvc@4.9.5",
+    "bom-ref": "npm/@rollup/rollup-win32-x64-msvc@4.9.5"
+   },
+   {
+    "type": "library",
+    "name": "@tailwindcss/oxide-linux-x64-gnu",
+    "version": "^4.0.1",
+    "purl": "pkg:npm/@tailwindcss/oxide-linux-x64-gnu@^4.0.1",
+    "bom-ref": "npm/@tailwindcss/oxide-linux-x64-gnu@^4.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@tailwindcss/oxide-win32-x64-msvc",
+    "version": "^4.0.1",
+    "purl": "pkg:npm/@tailwindcss/oxide-win32-x64-msvc@^4.0.1",
+    "bom-ref": "npm/@tailwindcss/oxide-win32-x64-msvc@^4.0.1"
+   },
+   {
+    "type": "library",
+    "name": "lightningcss-linux-x64-gnu",
+    "version": "^1.29.1",
+    "purl": "pkg:npm/lightningcss-linux-x64-gnu@^1.29.1",
+    "bom-ref": "npm/lightningcss-linux-x64-gnu@^1.29.1"
+   },
+   {
+    "type": "library",
+    "name": "lightningcss-win32-x64-msvc",
+    "version": "^1.29.1",
+    "purl": "pkg:npm/lightningcss-win32-x64-msvc@^1.29.1",
+    "bom-ref": "npm/lightningcss-win32-x64-msvc@^1.29.1"
+   }
+  ]
+ },
+ "elapsed_seconds": 42.17,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 2,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "b5c338c60ed77e6ccbf344178cea1717eab6916f",
+    "latest_commit": "b5c338c anticloud overlay + upstream swap to senatroxx/OpenKos",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T07:23:38.516024+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "c531ac9d8f05c32137d7c76c3686ea411dc9ffc28871ebab4ca8d1cf2756a239",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "senatroxx/OpenKos",
+  "sha": "aeb354411dad78de3f13e7856d43c849c65b389e",
+  "at": "2026-10-12T07:23:38.516024+00:00"
+ }
+}

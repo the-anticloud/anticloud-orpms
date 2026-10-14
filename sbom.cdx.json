@@ -1,0 +1,480 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:eedf596f-e85c-5c60-a3ef-013e849662ff",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-12T07:23:30Z",
+    "component": {
+      "type": "application",
+      "name": "ORPMS",
+      "version": "aeb354411dad",
+      "bom-ref": "pkg:generic/anticloud/ORPMS@aeb354411dad",
+      "purl": "pkg:generic/anticloud/ORPMS@aeb354411dad",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "aeb354411dad78de3f13e7856d43c849c65b389e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@base-ui/react",
+      "version": "^1.5.0",
+      "purl": "pkg:npm/@base-ui/react@^1.5.0",
+      "bom-ref": "npm/@base-ui/react@^1.5.0"
+    },
+    {
+      "type": "library",
+      "name": "@headlessui/react",
+      "version": "^2.2.0",
+      "purl": "pkg:npm/@headlessui/react@^2.2.0",
+      "bom-ref": "npm/@headlessui/react@^2.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@inertiajs/react",
+      "version": "^3.7.0",
+      "purl": "pkg:npm/@inertiajs/react@^3.7.0",
+      "bom-ref": "npm/@inertiajs/react@^3.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@inertiajs/vite",
+      "version": "^3.7.0",
+      "purl": "pkg:npm/@inertiajs/vite@^3.7.0",
+      "bom-ref": "npm/@inertiajs/vite@^3.7.0"
+    },
+    {
+      "type": "library",
+      "name": "@laravel/passkeys",
+      "version": "^0.2.0",
+      "purl": "pkg:npm/@laravel/passkeys@^0.2.0",
+      "bom-ref": "npm/@laravel/passkeys@^0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-avatar",
+      "version": "^1.1.3",
+      "purl": "pkg:npm/@radix-ui/react-avatar@^1.1.3",
+      "bom-ref": "npm/@radix-ui/react-avatar@^1.1.3"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-checkbox",
+      "version": "^1.1.4",
+      "purl": "pkg:npm/@radix-ui/react-checkbox@^1.1.4",
+      "bom-ref": "npm/@radix-ui/react-checkbox@^1.1.4"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-collapsible",
+      "version": "^1.1.3",
+      "purl": "pkg:npm/@radix-ui/react-collapsible@^1.1.3",
+      "bom-ref": "npm/@radix-ui/react-collapsible@^1.1.3"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-dialog",
+      "version": "^1.1.6",
+      "purl": "pkg:npm/@radix-ui/react-dialog@^1.1.6",
+      "bom-ref": "npm/@radix-ui/react-dialog@^1.1.6"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-dropdown-menu",
+      "version": "^2.1.6",
+      "purl": "pkg:npm/@radix-ui/react-dropdown-menu@^2.1.6",
+      "bom-ref": "npm/@radix-ui/react-dropdown-menu@^2.1.6"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-label",
+      "version": "^2.1.2",
+      "purl": "pkg:npm/@radix-ui/react-label@^2.1.2",
+      "bom-ref": "npm/@radix-ui/react-label@^2.1.2"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-navigation-menu",
+      "version": "^1.2.5",
+      "purl": "pkg:npm/@radix-ui/react-navigation-menu@^1.2.5",
+      "bom-ref": "npm/@radix-ui/react-navigation-menu@^1.2.5"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-popover",
+      "version": "^1.1.15",
+      "purl": "pkg:npm/@radix-ui/react-popover@^1.1.15",
+      "bom-ref": "npm/@radix-ui/react-popover@^1.1.15"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-select",
+      "version": "^2.1.6",
+      "purl": "pkg:npm/@radix-ui/react-select@^2.1.6",
+      "bom-ref": "npm/@radix-ui/react-select@^2.1.6"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-separator",
+      "version": "^1.1.2",
+      "purl": "pkg:npm/@radix-ui/react-separator@^1.1.2",
+      "bom-ref": "npm/@radix-ui/react-separator@^1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-slot",
+      "version": "^1.2.3",
+      "purl": "pkg:npm/@radix-ui/react-slot@^1.2.3",
+      "bom-ref": "npm/@radix-ui/react-slot@^1.2.3"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-toggle",
+      "version": "^1.1.2",
+      "purl": "pkg:npm/@radix-ui/react-toggle@^1.1.2",
+      "bom-ref": "npm/@radix-ui/react-toggle@^1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-toggle-group",
+      "version": "^1.1.2",
+      "purl": "pkg:npm/@radix-ui/react-toggle-group@^1.1.2",
+      "bom-ref": "npm/@radix-ui/react-toggle-group@^1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "@radix-ui/react-tooltip",
+      "version": "^1.1.8",
+      "purl": "pkg:npm/@radix-ui/react-tooltip@^1.1.8",
+      "bom-ref": "npm/@radix-ui/react-tooltip@^1.1.8"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/vite",
+      "version": "^4.1.11",
+      "purl": "pkg:npm/@tailwindcss/vite@^4.1.11",
+      "bom-ref": "npm/@tailwindcss/vite@^4.1.11"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^19.2.0",
+      "purl": "pkg:npm/@types/react@^19.2.0",
+      "bom-ref": "npm/@types/react@^19.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^19.2.0",
+      "purl": "pkg:npm/@types/react-dom@^19.2.0",
+      "bom-ref": "npm/@types/react-dom@^19.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@vitejs/plugin-react",
+      "version": "^5.2.0",
+      "purl": "pkg:npm/@vitejs/plugin-react@^5.2.0",
+      "bom-ref": "npm/@vitejs/plugin-react@^5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "class-variance-authority",
+      "version": "^0.7.1",
+      "purl": "pkg:npm/class-variance-authority@^0.7.1",
+      "bom-ref": "npm/class-variance-authority@^0.7.1"
+    },
+    {
+      "type": "library",
+      "name": "clsx",
+      "version": "^2.1.1",
+      "purl": "pkg:npm/clsx@^2.1.1",
+      "bom-ref": "npm/clsx@^2.1.1"
+    },
+    {
+      "type": "library",
+      "name": "cmdk",
+      "version": "^1.1.1",
+      "purl": "pkg:npm/cmdk@^1.1.1",
+      "bom-ref": "npm/cmdk@^1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "concurrently",
+      "version": "^9.0.1",
+      "purl": "pkg:npm/concurrently@^9.0.1",
+      "bom-ref": "npm/concurrently@^9.0.1"
+    },
+    {
+      "type": "library",
+      "name": "globals",
+      "version": "^15.14.0",
+      "purl": "pkg:npm/globals@^15.14.0",
+      "bom-ref": "npm/globals@^15.14.0"
+    },
+    {
+      "type": "library",
+      "name": "input-otp",
+      "version": "^1.4.2",
+      "purl": "pkg:npm/input-otp@^1.4.2",
+      "bom-ref": "npm/input-otp@^1.4.2"
+    },
+    {
+      "type": "library",
+      "name": "laravel-vite-plugin",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/laravel-vite-plugin@^3.0.0",
+      "bom-ref": "npm/laravel-vite-plugin@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "lucide-react",
+      "version": "^0.475.0",
+      "purl": "pkg:npm/lucide-react@^0.475.0",
+      "bom-ref": "npm/lucide-react@^0.475.0"
+    },
+    {
+      "type": "library",
+      "name": "radix-ui",
+      "version": "^1.4.3",
+      "purl": "pkg:npm/radix-ui@^1.4.3",
+      "bom-ref": "npm/radix-ui@^1.4.3"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^19.2.0",
+      "purl": "pkg:npm/react@^19.2.0",
+      "bom-ref": "npm/react@^19.2.0"
+    },
+    {
+      "type": "library",
+      "name": "react-compiler-runtime",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/react-compiler-runtime@^1.0.0",
+      "bom-ref": "npm/react-compiler-runtime@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^19.2.0",
+      "purl": "pkg:npm/react-dom@^19.2.0",
+      "bom-ref": "npm/react-dom@^19.2.0"
+    },
+    {
+      "type": "library",
+      "name": "recharts",
+      "version": "^3.10.1",
+      "purl": "pkg:npm/recharts@^3.10.1",
+      "bom-ref": "npm/recharts@^3.10.1"
+    },
+    {
+      "type": "library",
+      "name": "sonner",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/sonner@^2.0.0",
+      "bom-ref": "npm/sonner@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tailwind-merge",
+      "version": "^3.0.1",
+      "purl": "pkg:npm/tailwind-merge@^3.0.1",
+      "bom-ref": "npm/tailwind-merge@^3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "^4.0.0",
+      "purl": "pkg:npm/tailwindcss@^4.0.0",
+      "bom-ref": "npm/tailwindcss@^4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "tw-animate-css",
+      "version": "^1.4.0",
+      "purl": "pkg:npm/tw-animate-css@^1.4.0",
+      "bom-ref": "npm/tw-animate-css@^1.4.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.7.2",
+      "purl": "pkg:npm/typescript@^5.7.2",
+      "bom-ref": "npm/typescript@^5.7.2"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/vite@^8.0.0",
+      "bom-ref": "npm/vite@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.19.0",
+      "purl": "pkg:npm/@eslint/js@^9.19.0",
+      "bom-ref": "npm/@eslint/js@^9.19.0"
+    },
+    {
+      "type": "library",
+      "name": "@laravel/vite-plugin-wayfinder",
+      "version": "^0.1.3",
+      "purl": "pkg:npm/@laravel/vite-plugin-wayfinder@^0.1.3",
+      "bom-ref": "npm/@laravel/vite-plugin-wayfinder@^0.1.3"
+    },
+    {
+      "type": "library",
+      "name": "@stylistic/eslint-plugin",
+      "version": "^5.10.0",
+      "purl": "pkg:npm/@stylistic/eslint-plugin@^5.10.0",
+      "bom-ref": "npm/@stylistic/eslint-plugin@^5.10.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.13.5",
+      "purl": "pkg:npm/@types/node@^22.13.5",
+      "bom-ref": "npm/@types/node@^22.13.5"
+    },
+    {
+      "type": "library",
+      "name": "babel-plugin-react-compiler",
+      "version": "^1.0.0",
+      "purl": "pkg:npm/babel-plugin-react-compiler@^1.0.0",
+      "bom-ref": "npm/babel-plugin-react-compiler@^1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.17.0",
+      "purl": "pkg:npm/eslint@^9.17.0",
+      "bom-ref": "npm/eslint@^9.17.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-prettier",
+      "version": "^10.0.1",
+      "purl": "pkg:npm/eslint-config-prettier@^10.0.1",
+      "bom-ref": "npm/eslint-config-prettier@^10.0.1"
+    },
+    {
+      "type": "library",
+      "name": "eslint-import-resolver-typescript",
+      "version": "^4.4.4",
+      "purl": "pkg:npm/eslint-import-resolver-typescript@^4.4.4",
+      "bom-ref": "npm/eslint-import-resolver-typescript@^4.4.4"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-import",
+      "version": "^2.32.0",
+      "purl": "pkg:npm/eslint-plugin-import@^2.32.0",
+      "bom-ref": "npm/eslint-plugin-import@^2.32.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react",
+      "version": "^7.37.3",
+      "purl": "pkg:npm/eslint-plugin-react@^7.37.3",
+      "bom-ref": "npm/eslint-plugin-react@^7.37.3"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-react-hooks",
+      "version": "^7.0.0",
+      "purl": "pkg:npm/eslint-plugin-react-hooks@^7.0.0",
+      "bom-ref": "npm/eslint-plugin-react-hooks@^7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "^1.63.0",
+      "purl": "pkg:npm/playwright@^1.63.0",
+      "bom-ref": "npm/playwright@^1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^3.4.2",
+      "purl": "pkg:npm/prettier@^3.4.2",
+      "bom-ref": "npm/prettier@^3.4.2"
+    },
+    {
+      "type": "library",
+      "name": "prettier-plugin-tailwindcss",
+      "version": "^0.6.11",
+      "purl": "pkg:npm/prettier-plugin-tailwindcss@^0.6.11",
+      "bom-ref": "npm/prettier-plugin-tailwindcss@^0.6.11"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint",
+      "version": "^8.23.0",
+      "purl": "pkg:npm/typescript-eslint@^8.23.0",
+      "bom-ref": "npm/typescript-eslint@^8.23.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.9.5",
+      "purl": "pkg:npm/@rollup/rollup-linux-x64-gnu@4.9.5",
+      "bom-ref": "npm/@rollup/rollup-linux-x64-gnu@4.9.5"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.9.5",
+      "purl": "pkg:npm/@rollup/rollup-win32-x64-msvc@4.9.5",
+      "bom-ref": "npm/@rollup/rollup-win32-x64-msvc@4.9.5"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/oxide-linux-x64-gnu",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/@tailwindcss/oxide-linux-x64-gnu@^4.0.1",
+      "bom-ref": "npm/@tailwindcss/oxide-linux-x64-gnu@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@tailwindcss/oxide-win32-x64-msvc",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/@tailwindcss/oxide-win32-x64-msvc@^4.0.1",
+      "bom-ref": "npm/@tailwindcss/oxide-win32-x64-msvc@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "lightningcss-linux-x64-gnu",
+      "version": "^1.29.1",
+      "purl": "pkg:npm/lightningcss-linux-x64-gnu@^1.29.1",
+      "bom-ref": "npm/lightningcss-linux-x64-gnu@^1.29.1"
+    },
+    {
+      "type": "library",
+      "name": "lightningcss-win32-x64-msvc",
+      "version": "^1.29.1",
+      "purl": "pkg:npm/lightningcss-win32-x64-msvc@^1.29.1",
+      "bom-ref": "npm/lightningcss-win32-x64-msvc@^1.29.1"
+    }
+  ]
+}
