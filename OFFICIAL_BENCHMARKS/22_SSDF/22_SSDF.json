@@ -1,0 +1,21 @@
+{
+ "framework": "22_SSDF",
+ "title": "NIST SP 800-218 SSDF v1.1",
+ "project": "ORPMS",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "{\"branch\": \"main\", \"commits\": 1, \"gitignore_present\": true, "
+  },
+  {
+   "check": "07_owasp_top10",
+   "status": "PASS",
+   "observed": "{\"authority\": \"OWASP Foundation\", \"control_ids\": [\"A01:2021\""
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "625f8e543a38299c9671473a1c816938415865965629166bb339eabbdf79c37a",
+ "register_sha3": "abcc3164df4419cbf2a61effd4b8a26ec71d0a6489d38ba441eaaad060e86c0b"
+}
