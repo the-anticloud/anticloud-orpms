@@ -1,20 +1,20 @@
 # ORPMS
 
-> **Open-source property management platform for boarding houses (kos), apartments, and rentals.** Self-hosted, extensible, and built with Laravel + React.
+> Opensource Real Estate Property Management System This nodejs project is a opensource real estate property management system. A web application that offers a toolkit for owners of buildings, flats, offices, meeting rooms, car parks, letter boxes...
 
-**Category:** REAL_ESTATE · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/senatroxx/OpenKos · **Pinned commit:** `aeb354411dad78de3f13e7856d43c849c65b389e` · **Vendor:** Anticloud FZ LLE
-
-> **Note:** this package vendors `https://github.com/senatroxx/OpenKos` as the implementation for the `ORPMS` slot. The vendored repository name differs from the package name; the pin above is the exact commit vendored here.
+**Category:** REAL_ESTATE · **Ecosystem:** unknown · **Vendored upstream:** https://github.com/orpms/orpms · **Pinned commit:** `61da1571e7a79de5dbbdcd4c4672602c237110b6` · **Vendor:** Anticloud FZ LLE
 
 ## What This Project Is
 
-**Open-source property management platform for boarding houses (kos), apartments, and rentals.** Self-hosted, extensible, and built with Laravel + React.
+Opensource Real Estate Property Management System This nodejs project is a opensource real estate property management system. A web application that offers a toolkit for owners of buildings, flats, offices, meeting rooms, car parks, letter boxes...
 
 This is the upstream project, vendored at the pinned commit above and packaged offline-first. The 12 improvements Anticloud adds live in `anticloud/` and are described under *Anticloud Overlay* below. Every fact in this file traces to a file in this directory.
 
 ## Installation
 
-```bash
+```
+# See the upstream README (linked above) for build steps.
+```
 
 ## Usage
 
@@ -60,7 +60,7 @@ The upstream licence is preserved in `LICENSE` and `THIRD_PARTY_LICENSES/`. The 
 SHA3-256 of `BENCH.json`:
 
 ```
-f2aa5e6ee18194a90d0776c616b5999e6db9573336dc6e048ef9973e889f7892
+4fdbfea167333c96f4cfb42f95a12372f4cff887c6bcc0148a279e696455f6a3
 ```
 
 Recompute the hash above and compare — any drift means the package has been tampered with and the seal is invalid. This is a self-assessment; no external audit has been performed and a SOC 2 / NIST independent audit is committed post-funding.

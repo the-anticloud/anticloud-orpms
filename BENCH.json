@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "ORPMS",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\REAL_ESTATE\\ORPMS\\UPSTREAM_CLONE",
   "git": {
-   "head": "aeb354411dad78de3f13e7856d43c849c65b389e",
-   "url": "https://github.com/senatroxx/OpenKos",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/orpms/orpms",
+   "head": "61da1571e7a79de5dbbdcd4c4672602c237110b6",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/senatroxx/OpenKos"
   }
  },
  "metrics": {
